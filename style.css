@@ -86,15 +86,17 @@ li {
     margin:10px;
     width: 104px;
     height: 150px;
-    box-shadow: 5px 10px gray;
+    box-shadow: 5px 10px 5px gray;
     border-radius: 5px;
     background-color: #DFDFDF;
 
     /*texto*/
     font-size: 18px;
     text-align: center;
+}
 
-
+.jogos li{
+    font-size: 36px;;
 }
 
 /*-----------DADOS ESPECÍFICOS------------ */
