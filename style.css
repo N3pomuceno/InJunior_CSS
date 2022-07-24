@@ -33,6 +33,7 @@ footer {
 .descricao {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 32px;
