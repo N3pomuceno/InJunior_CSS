@@ -5,6 +5,15 @@ html {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+p {
+    Size: 16px;
+    Line-height: 24px;
+}
 
 /* ------------------SEÇÕES ---------------*/
 
@@ -62,6 +71,8 @@ ul, ol {
     Top: 20px;
     Left: 111.5px;
     Padding: 20px;
+
+    text-align: right;
 }
 .jogos{
     Width: Hug (595px);
@@ -93,10 +104,6 @@ header > h1 {
     line-height: 55px;
 }
 
-h2 {
-    font-size: 24px;
-    line-height: 33px;
-}
 
 #perfil {
     width: 247px;
