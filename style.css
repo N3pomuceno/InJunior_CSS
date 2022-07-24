@@ -1,0 +1,135 @@
+/*------------------GLOBAL-----------------*/
+html {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* ------------------SEÇÕES ---------------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 30px;
+
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+
+    background: #C4C4C4;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 125px;
+
+    background: #F3F3F3;
+}
+
+.listas {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+ul, ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.hobbies {
+    Width: Hug (595px);
+    Height: Hug (249px);
+    Top: 20px;
+    Left: 111.5px;
+    Padding: 20px;
+}
+.jogos{
+    Width: Hug (595px);
+    Height: Hug (249px);
+    Top: 20px;
+    Left: 111.5px;
+    Padding: 20px;
+}
+
+li {
+    margin:10px;
+    width: 104px;
+    height: 150px;
+    box-shadow: 5px 10px gray;
+    border-radius: 5px;
+    background-color: #DFDFDF;
+
+    /*texto*/
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+/*-----------DADOS ESPECÍFICOS------------ */
+
+header > h1 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+#perfil {
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#pyre:hover {
+    /*https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524*/
+    background-image: "https://static.wikia.nocookie.net/p__/images/4/4c/HK_Knight.png/revision/latest?cb=20190327150644&path-prefix=protagonist";
+    color: #DFDFDF;
+}
+
+#hollow_knight:hover {
+    /*https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524*/
+    background-image: "https://static.wikia.nocookie.net/p__/images/4/4c/HK_Knight.png/revision/latest?cb=20190327150644&path-prefix=protagonist";
+    color: #DFDFDF;
+}
+
+#hades:hover {
+    /*https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524*/
+    background-image: "https://static.wikia.nocookie.net/p__/images/4/4c/HK_Knight.png/revision/latest?cb=20190327150644&path-prefix=protagonist";
+    color: #DFDFDF;
+}
+
+#gris:hover {
+    /*https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524*/
+    background-image: "https://static.wikia.nocookie.net/p__/images/4/4c/HK_Knight.png/revision/latest?cb=20190327150644&path-prefix=protagonist";
+    color: #DFDFDF;
+}
+
+#what_remains_of_edith_finch:hover {
+    /*https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524*/
+    background-image: "https://static.wikia.nocookie.net/p__/images/4/4c/HK_Knight.png/revision/latest?cb=20190327150644&path-prefix=protagonist";
+    color: #DFDFDF;
+}
