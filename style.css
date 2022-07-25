@@ -57,7 +57,7 @@ footer {
 
 }
 
-ul, ol {
+ul, .lista {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@ ul, ol {
     Padding: 20px;
 }
 
-li {
+li, .itens {
     margin:10px;
     width: 104px;
     height: 150px;
@@ -95,8 +95,24 @@ li {
     text-align: center;
 }
 
-.jogos li{
-    font-size: 36px;;
+.num {
+    background-color: #C4C4C4;
+    z-index: 1;
+    position: absolute;
+    margin-left: 5px;
+    padding: 10px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main .jogos img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+main .jogos img:hover {
+    opacity: 0.3;
+    transition: 0.5s;
 }
 
 /*-----------DADOS ESPECÍFICOS------------ */
@@ -114,3 +130,39 @@ header > h1 {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* -----------Hover -----------------*/
+
+#caminhar:hover {
+    background-image: url(img/caminhar.webp);
+    background-size: cover;
+    
+    color: transparent;
+}
+
+#pessoas:hover {
+    background-image: url(img/amigos.webp);
+    background-size: cover;
+    
+    color: transparent;
+}
+
+#consoles:hover {
+    background-image: url(img/jogos.webp);
+    background-size: cover;
+    
+    color: transparent;
+}
+
+#headphone:hover {
+    background-image: url(img/headphone.jpg);
+    background-size: cover;
+    
+    color: transparent;
+}
+
+#sudoku:hover {
+    background-image: url(img/sudoku.jpg);
+    background-size: cover;
+    
+    color: transparent;
+}
